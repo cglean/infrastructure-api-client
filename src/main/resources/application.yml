@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: infrastructure-api-client
+security:
+  basic:
+    enabled: false

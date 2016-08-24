@@ -1,0 +1,11 @@
+
+---
+applications:
+- name: infrastructure-api-client
+  memory: 512MB
+  instances: 1
+  path: target/infrastructure-client-0.0.1-SNAPSHOT.jar
+  services:
+    - service-registry
+  env:
+    SPRING_PROFILES_ACTIVE: cloud
